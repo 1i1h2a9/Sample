@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "Hello World"
+        label.text = "Do you love Tank-Top?"
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ButtonTapped(_ sender: Any) {
-        label.text = "Hello Swift"
+        label.text = "I Love Tank-Top!"
     }
 
 }
